@@ -1,0 +1,14 @@
+{
+    "view":"statistics:views/dashlets/conversion-table",
+    "options": {
+        "fields": {
+            "title": {
+                "type": "varchar",
+                "required": true
+            }
+        },
+        "defaults": {
+            "title": "Статистика по конверсии"
+        }
+    }
+}

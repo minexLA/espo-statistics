@@ -1,0 +1,33 @@
+{
+    "fields": {
+        "Agent": "Агент",
+        "Source": "Источник",
+        "Conversion": "Конверсия",
+        "Partner": "Партнер"
+    },
+    "labels": {
+        "All": "Все",
+        "Period": "Период",
+        "Metric": "Метрика",
+        "Total Leads": "Всего лидов",
+        "Converted Leads": "Конвертированных лидов",
+        "Conversion Rate": "Коэффициент конверсии",
+        "Loading...": "Загрузка..."
+    },
+    "options": {
+        "dateFilter": {
+            "today": "Сегодня",
+            "yesterday": "Вчера",
+            "thisWeek": "Эта неделя",
+            "lastWeek": "Прошлая неделя",
+            "thisMonth": "Этот месяц",
+            "lastMonth": "Прошлый месяц",
+            "thisQuarter": "Этот квартал",
+            "lastQuarter": "Прошлый квартал",
+            "thisYear": "Этот год",
+            "lastYear": "Прошлый год",
+            "last30Days": "Последние 30 дней",
+            "last7Days": "Последние 7 дней"
+        }
+    }
+}
