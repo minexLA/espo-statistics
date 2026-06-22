@@ -1,0 +1,29 @@
+{
+    "view": "statistics:views/dashlets/geo-charbar",
+    "options": {
+        "fields": {
+            "title": {
+                "type": "varchar",
+                "required": true
+            },
+            "metric": {
+                "type": "enum",
+                "options": ["rate", "count", "share"]
+            },
+            "sources": {
+                "type": "multiEnum",
+                "options": []
+            },
+            "autorefreshInterval": {
+                "type": "enumFloat",
+                "options": [0, 1, 2, 5, 10]
+            }
+        },
+        "defaults": {
+            "title": "ГЕО (чарбар)",
+            "metric": "rate",
+            "sources": [],
+            "autorefreshInterval": 0
+        }
+    }
+}

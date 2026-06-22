@@ -1,0 +1,31 @@
+{
+    "view": "statistics:views/dashlets/single-source-conversion",
+    "options": {
+        "fields": {
+            "title": {
+                "type": "varchar",
+                "required": true
+            },
+            "sources": {
+                "type": "multiEnum",
+                "options": [],
+                "required": true
+            },
+            "period": {
+                "type": "enum",
+                "options": ["all", "today", "yesterday", "last7Days", "last30Days", "thisMonth", "lastMonth"],
+                "translation": "Global.options.dateFilter"
+            },
+            "autorefreshInterval": {
+                "type": "enumFloat",
+                "options": [0, 1, 2, 5, 10]
+            }
+        },
+        "defaults": {
+            "title": "Конверсия по источнику",
+            "sources": [],
+            "period": "all",
+            "autorefreshInterval": 0
+        }
+    }
+}

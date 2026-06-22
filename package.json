@@ -1,6 +1,6 @@
 {
   "name": "espocrm-ext-statistics",
-  "version": "0.0.1",
+  "version": "0.2.0",
   "description": "",
   "scripts": {
     "sa": "node build --copy && node build --composer-install && php site/vendor/bin/phpstan",
@@ -13,7 +13,8 @@
     "clear-cache": "php site/clear_cache.php",
     "rebuild": "node build --rebuild",
     "all": "node build --all",
-    "prepare-test": "node build --prepare-test"
+    "prepare-test": "node build --prepare-test",
+    "sync-rebuild": "node build --copy && node build --composer-install && php site/command.php rebuild && php site/command.php clear-cache"
   },
   "type": "module",
   "author": "minex",

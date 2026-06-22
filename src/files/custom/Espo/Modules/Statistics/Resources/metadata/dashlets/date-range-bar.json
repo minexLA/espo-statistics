@@ -1,0 +1,14 @@
+{
+    "view": "statistics:views/dashlets/date-range-bar",
+    "options": {
+        "fields": {
+            "title": {
+                "type": "varchar",
+                "required": true
+            }
+        },
+        "defaults": {
+            "title": "Период"
+        }
+    }
+}

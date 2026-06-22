@@ -1,0 +1,29 @@
+{
+    "view": "statistics:views/dashlets/valid-charbar",
+    "options": {
+        "fields": {
+            "title": {
+                "type": "varchar",
+                "required": true
+            },
+            "metric": {
+                "type": "enum",
+                "options": ["count", "share"]
+            },
+            "sources": {
+                "type": "multiEnum",
+                "options": []
+            },
+            "autorefreshInterval": {
+                "type": "enumFloat",
+                "options": [0, 1, 2, 5, 10]
+            }
+        },
+        "defaults": {
+            "title": "Валидность (чарбар)",
+            "metric": "count",
+            "sources": [],
+            "autorefreshInterval": 0
+        }
+    }
+}

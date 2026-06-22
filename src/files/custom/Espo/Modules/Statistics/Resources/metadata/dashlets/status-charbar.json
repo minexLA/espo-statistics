@@ -1,0 +1,29 @@
+{
+    "view": "statistics:views/dashlets/status-charbar",
+    "options": {
+        "fields": {
+            "title": {
+                "type": "varchar",
+                "required": true
+            },
+            "metric": {
+                "type": "enum",
+                "options": ["count", "share"]
+            },
+            "sources": {
+                "type": "multiEnum",
+                "options": []
+            },
+            "autorefreshInterval": {
+                "type": "enumFloat",
+                "options": [0, 1, 2, 5, 10]
+            }
+        },
+        "defaults": {
+            "title": "Статусы (чарбар)",
+            "metric": "count",
+            "sources": [],
+            "autorefreshInterval": 0
+        }
+    }
+}

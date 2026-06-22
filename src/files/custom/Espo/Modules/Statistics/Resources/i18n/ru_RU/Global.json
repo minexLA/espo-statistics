@@ -1,21 +1,51 @@
 {
+    "dashlets": {
+        "ConversionTable": "Конверсия (таблица)",
+        "AvgWallet": "Средний депозит",
+        "SourceConversion": "Конверсия по источникам",
+        "GeoConversion": "Конверсия по ГЕО (все)",
+        "SingleGeoConversion": "Конверсия по ГЕО (одна)",
+        "SingleSourceConversion": "Конверсия по источнику",
+        "AgentStats": "Статистика агентов",
+        "GeoCharbar": "ГЕО (диаграмма)",
+        "ValidCharbar": "Валидность (диаграмма)",
+        "StatusCharbar": "Статусы (диаграмма)",
+        "DateRangeBar": "Период (выбор даты)"
+    },
     "fields": {
         "Agent": "Агент",
         "Source": "Источник",
         "Conversion": "Конверсия",
-        "Partner": "Партнер"
+        "Partner": "Партнер",
+        "GEO": "ГЕО",
+        "Sources": "Источники"
     },
     "labels": {
         "All": "Все",
         "Period": "Период",
         "Metric": "Метрика",
+        "Value": "Значение",
         "Total Leads": "Всего лидов",
         "Converted Leads": "Конвертированных лидов",
         "Conversion Rate": "Коэффициент конверсии",
-        "Loading...": "Загрузка..."
+        "Rate": "Конверсия",
+        "Loading...": "Загрузка...",
+        "Avg Amount": "Средняя сумма",
+        "Total Amount": "Общая сумма",
+        "Leads with Amount": "Лидов с депозитом",
+        "GEO": "ГЕО",
+        "No data": "Нет данных",
+        "Conv Valid": "Конверсия (full)",
+        "Avg Check": "Средний чек",
+        "Avg Per Client": "Средняя сумма / клиент",
+        "Date From": "Дата от",
+        "Date To": "Дата до",
+        "Valid": "Валидные (full)",
+        "Invalid": "Невалидные"
     },
     "options": {
         "dateFilter": {
+            "all": "Всё время",
             "today": "Сегодня",
             "yesterday": "Вчера",
             "thisWeek": "Эта неделя",
@@ -28,6 +58,11 @@
             "lastYear": "Прошлый год",
             "last30Days": "Последние 30 дней",
             "last7Days": "Последние 7 дней"
+        },
+        "metric": {
+            "rate": "Конверсия %",
+            "count": "Количество лидов",
+            "share": "Доля %"
         }
     }
 }
